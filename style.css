@@ -1,0 +1,510 @@
+html{
+    scroll-behavior: smooth;
+}
+header {
+    height: 100vh;
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("img/gallery1.jpeg") center center/cover;
+}
+
+header nav  {
+    background-color:#bc4809;
+    width: 100%;
+    padding-bottom: 10px;
+     position: fixed;
+     top: 0;
+     z-index: 20;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+header nav ul li a:hover {
+    border-bottom: 3px solid #fff;
+}
+
+header .primer_button {
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+header .contanir {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+}
+
+header .contanir h1 {
+    margin-bottom: -2px;
+}
+
+header .contanir p {
+    margin-bottom: 35px;
+}
+
+header .contanir a {
+ width: 100px;
+ margin-left: 35%;
+ font-size: 18px;
+}
+
+header .contanir a:hover {
+    background-color: #bc4809
+}
+
+header::before {
+    content: "";
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background: rgba(0 ,0 ,0 ,0.5);
+ }
+
+ header * {
+    z-index: 15;
+ }
+
+
+/* End header page */
+
+/* Start menu page  */
+
+#menu {
+    width: 100%;
+    height: 153vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: url("img/3014622.jpg") center center/cover ;
+}
+
+#menu::before {
+    content: "";
+    width: 100%;
+    height: 153vh; 
+    position: absolute;
+    background: rgba(0 ,0 ,0 ,0.7);
+}
+
+#menu * {
+ z-index: 15;
+}
+
+#menu .title {
+    width: 100%;
+    margin-top: 90px;
+    margin-bottom: 10px;
+    margin-left: -1.5%;
+    color: #ffffffe8;
+}
+
+#menu .menu_items{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin : 10px 100px; 
+    color: #ffffffe8;
+}
+
+#menu .menu_items .menu1 , .menu2 , .menu3 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#menu .menu_items img:hover {
+ background-color: rgba(0 ,0 ,0 ,0.4);
+}
+
+#menu .menu_items img {
+    transition: 0.5s ease;
+}
+
+#menu .menu_items img:hover {
+    transform: scale(1.1);
+}
+
+/* End menu page  */
+
+/* Start order page */
+#order {
+    height: 100vh;
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url("img/home_bg.jpeg") center center/cover no-repeat;
+}
+
+#order form {
+    width: 50%;
+    padding: 10px;
+    margin: 20px 10%;
+    border: 2px solid #fff;
+    border-radius: 15px;
+}
+
+#order form input,
+#order form textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 20px;
+   border: 1px solid #fff;
+   border-radius: 15px;
+   background-color: rgba(255, 255, 255, 0.2);
+   color: #fff;
+}
+
+#order h1 {
+    color: #fff;
+    margin-top: 20px;
+}
+#order form input::placeholder , textarea::placeholder {
+    color: #fff;
+}
+
+#order form input:hover , textarea:hover {
+    background-color: rgba(0 ,0 ,0 ,0.4);
+}
+
+#order form button {
+    width: 30%;
+    padding: 10px 10px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+#order form button:hover {
+    background-color: #bc4809;
+}
+
+#order::before {
+    content: "";
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background: rgba(0 ,0 ,0 ,0.4);
+ }
+
+#order * {
+    z-index: 15;
+ }
+
+/* End order page */
+
+/* Start about page */
+
+#about {
+    width: 100%;
+    height: 100vh;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    background: url("img/3014622.jpg") center center/cover ;
+}
+
+#about .parg {
+    width: 50%;
+    margin: 25px;
+    margin-top: 100px;
+    text-align: center;
+    color: #ffffffe8;
+}
+
+#about .parg .title {
+ margin-bottom: 25px;
+}
+
+#about .parg a {
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid #ffffffe8;
+    border-radius: 15px;
+    color: #ffffffe8;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+#about .parg a:hover {
+    background-color: #bc4809;
+}
+
+#about img {
+    width: 40%;
+    margin: 25px;
+    margin-top: 100Px;
+}
+
+#about::before {
+    content: "";
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background: rgba(0 ,0 ,0 ,0.7);
+}
+
+#about * {
+    z-index: 15;
+}
+
+/* End about page */
+
+/* Stert login page */
+
+#login {
+    background: url("img/3014622.jpg") center center/cover ;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#login form {
+    height: 60%;
+    width: 30%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fff;
+    text-align: center;
+}
+
+#login form h2 {
+    color: #fff;
+}
+
+form input::placeholder {
+    color: #ffffffe8 ;
+    font-size: 16px;
+}
+
+#login form input , button {
+    margin: 10px 0;
+    padding: 10px;
+   width: 50vh;
+   border: none;
+   border-radius: 15px;
+   background-color: rgba(255, 255, 255, 0.2);
+   border: 1px solid #ffffffe8;
+   color: #ffffffe8;
+   font-size: 18px;
+}
+
+#login form a {
+    color: #fff;
+    margin-top: 5px;
+    margin-left: 65%;
+    font-size: 13px;
+}
+
+#login form a:hover {
+ color: #ed8954;
+}
+
+#login form input:hover {
+    background-color: rgba(0 ,0 ,0 ,0.4);
+}
+
+#login form button {
+   margin-left: 10px;
+   margin-top: 40px;
+}
+
+#login form button:hover {
+   background-color: #bc4809;
+}
+
+
+ #login::before {
+    content: "";
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background: rgba(0 ,0 ,0 ,0.5);
+ }
+
+ #login * {
+    z-index: 15;
+ }
+
+/* End login page */
+
+/* Start regesteration page  */
+
+#Register {
+    background: url("img/3014622.jpg") center center/cover ;
+    width: 100%;
+    height: 100vh;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#Register form {
+    width: 60%;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    color: #fff;
+    margin-top: 35px;
+    /* margin-bottom: px; */
+}
+
+#Register form input {
+  width: 80% ;
+  margin: 15px ;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ffffffe8;
+  border: 1px solid #ffffffe8;
+}
+
+#Register form input::placeholder {
+    color: #ffffffe8;
+    font-size: 16px;
+}
+
+#Register form button {
+    width: 70%;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffffffe8;
+    border: 1px solid #ffffffe8;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+#Register form input:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#Register form button:hover {
+    background-color: #bc4809;
+}
+#Register::before {
+    content: "";
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background: rgba(0 ,0 ,0 ,0.5);
+}
+
+#Register * {
+    z-index: 15;
+}
+/* End regesteration page */
+
+/* Start contact page */
+#contact {
+    width: 100%;
+    height: 100vh;
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    background: url("img/3014622.jpg") center center/cover no-repeat ;
+  }
+  
+  
+#contact .info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 80px;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  #contact .info div {
+    padding: 0 20px;
+    margin: 15px 0;
+  }
+  
+  #contact form {
+  width: 50%;
+  margin-right: 100px;
+  margin-top: 80px;
+  text-align: center;
+  color: #fff;
+  }
+  
+  #contact form input , textarea {
+    width: 80%;
+    padding: 10px 15px;
+    border-radius: 15px;
+    margin: 15px ;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid #ccc;
+    color: #fff;
+  }
+  
+  #contact form input::placeholder ,
+   textarea::placeholder {
+    color: #fff ;
+   }
+  #contact form input:hover , textarea:hover {
+    background-color: rgba(0 ,0 ,0 ,0.4);
+  }
+  
+  #contact form button {
+    width: 45%;
+    padding: 10px ;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid #ccc;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  #contact form button:hover {
+    background-color: #bc4809;
+  }
+  
+  #contact::before {
+    content: "";
+      height: 100vh;
+      width: 100%;
+      position: absolute;
+      background: rgba(0 ,0 ,0 ,0.6);
+  }
+  
+  #contact *{
+    z-index: 15;
+  }
+  
+/* End contact page */

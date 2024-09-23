@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Food Lover</title>
+</head>
+<body>
+    <!-- start Home page -->
+    <header id="home">
+        <nav>
+            <!-- <img src="img/logo.png" alt="logo"> -->
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#order">Ordar</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#Register">Register</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="contanir">
+            <h1>Welcome To Foodlover Resturant </h1>
+            <p>Here you can find Most delicacies food in the world</p>
+            <a href="#" class="primer_button">Book a table</a>
+        </div>
+    </header>
+    <!-- End Home page -->
+
+    <main>
+        <!-- Start menu page -->
+
+        <section id="menu">
+            <div class="title">
+                <h2 style="margin-bottom: -7px;">Our Special Menu</h2>
+                <h4>Click on the image</h4>
+            </div>
+            <div class="menu_items">
+                <div class="menu1">
+                    <div id="KOFTA">
+                       <a href="#order"><img src="img/food5.png" li alt="KOFTA MEAT"></a>
+                        <h3>KOFTA MEA <span style="color: yellow;">$40.00</span></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, eaque!</p>
+                    </div>
+                    <div id="JUMBO">
+                        <a href="#order"><img src="img/food2.png" alt="JUMBO CRAB"></a>
+                        <h3>JUMBO CRAB <span style="color: yellow;">$24.00</span></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, eaque!</p>
+                    </div>
+                    <div id="CAPO">
+                        <a href="#order"><img src="img/food4.png" alt="CAPO STEAK"></a>
+                        <h3>CAPO STEAK <span style="color: yellow;">$60.00</span></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, eaque!</p>
+                    </div>
+                </div> 
+                <div class="menu2"> 
+                    <div id="CAPO">
+                        <a href="#order"><img src="img/food4.png" alt="CAPO STEAK"></a>
+                        <h3>CAPO STEAK <span style="color: yellow;">$60.00</span></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, eaque!</p>
+                    </div>
+                    <div id="LASAL">
+                        <a href="#order"><img src="img/food1.png" alt="LASAL cheese"></a>
+                        <h3>LASAL cheese <span style="color: yellow;">$18.00</span></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, eaque!</p>
+                    </div>                
+                    <div id="CHEESE">
+                        <a href="#order"><img src="img/food6.png" alt="CHEESE TOST"></a>
+                        <h3>LASAL cheese <span style="color: rgb(255, 255, 0);">$6.00</span></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, eaque!</p>
+                    </div>
+                </div>    
+                <div class="menu3"> 
+                    <div id="CHEESE">
+                        <a href="#order"><img src="img/food6.png" alt="CHEESE TOST"></a>
+                        <h3>LASAL cheese <span style="color: rgb(255, 255, 0);">$6.00</span></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, eaque!</p>
+                    </div>
+                    <div id="KOKTIAL">
+                        <a href="#order"><img src="img/food3.png" alt="KOKTIAL JUCIE"></a>
+                        <h3>KOKTIAL JUCIE <span style="color: yellow;">$12.00</span></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, eaque!</p>
+                    </div>
+                    <div id="KOFTA">
+                        <a href="#order"><img src="img/food5.png" alt="KOFTA MEAT"></a>
+                        <h3>KOFTA MEA <span style="color: yellow;">$40.00</span></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, eaque!</p>
+                     </div>
+                </div> 
+            </div>        
+        </section>
+        <!-- End menu page -->
+      
+        <!-- Start ordar page -->
+        <section id="order">
+            <form>
+                <div>
+                    <h1>Request an order</h1>
+                    <!-- <label>ENTER YOUR NAME *</label> -->
+                    <input type="text" name="name" placeholder="Full Name" required>
+                </div>
+                <div>
+                    <!-- <label>ENTER YOUR PHONE *</label> -->
+                    <input type="tel" name="phone" placeholder="Phone number" required>
+                </div>
+                <div>
+                    <!-- <label for="ordar">Choose your order *</label> -->
+                    <input list="list" required placeholder="Choose Your Order">
+                    <datalist id="list">
+                        <option value="LASAL cheeset">
+                        <option value="JUMBO CRAB">
+                        <option value="KOKTIAL JUCIE">
+                        <option value="CAPO STEAK">
+                        <option value="KOFTA MEAT">
+                        <option value="CHEESE TOST">
+                    </datalist>
+                </div>
+                <div>
+                    <input type="text" name="quantity" placeholder="Quantity">
+                </div>
+                <div>
+                    <!-- <label>ENTER YOUR location *</label> -->
+                    <textarea cols="40" rows="3" name="location"
+                        placeholder="location" required></textarea>
+                </div>
+                <button type="submit">Send your order</button>
+            </form>
+        </section>
+        <!-- End ordar page -->
+
+        <!-- Start about page -->
+
+        <section id="about">
+            <div class="parg">
+                <h2>The Food Lover history</h2>
+                <p class="title">More than 25 years experince</p>
+    
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore perferendis laboriosam
+                    vel aperiam amet? Aperiam numquam, vitae quaerat culpa temporibus rerum laudantium deleniti
+                    laboriosam quibusdam ullam saepe sapiente dolores itaque!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quas
+                    recusandae, consequatur veritatis facere eius ad facilis labore ullam quaerat
+                    laudantium dolorum esse
+                    mollitia ex dolor earum tempore aperiam numquam.</p>
+                <a href="#" class="btn">LEARN MORE</a>
+            </div>
+            <img src="img/about_img.png" alt="">
+        </section>
+        <!-- End about page -->
+
+        <!-- Start regesteration page -->
+
+        <section id="Register">
+            <form action="">
+                <h2>Register</h2>
+                    <div>
+                        <!-- <label>Email</label> -->
+                        <input type="text" required placeholder="first name" name="first name">
+                    </div>
+                    <div>
+                        <!-- <label>Email</label> -->
+                        <input type="text" required placeholder="last name" name="last name">
+                    </div>
+                    <div>
+                        <!-- <label>Email</label> -->
+                        <input type="email" required placeholder="Email" name="Email">
+                    </div>
+                    <div>
+                        <!-- <label>Password</label> -->
+                        <input type="password" required placeholder="Password" name="password" minlength="8" maxlength="15">
+                    </div>
+                    <div>
+                        <!-- <label>Password</label> -->
+                        <input type="password" required placeholder="Confirm Password" name="password" minlength="8" maxlength="15">
+                    </div>
+                    <!-- <a href="#" target="_blank" >Forgot Password?</a> -->
+                    <div>
+                        <button type="submit">Register</button>
+                    </div>
+            </form>
+        </section>
+        <!-- End regesteration page -->
+
+        <!-- Start login page -->
+
+        <section id="login">
+            <form action="">
+                <h2>USER LOGIN</h2>
+                <div class="contan">
+                    <div>
+                        <!-- <label>Email</label> -->
+                        <input type="email" required placeholder="Email" name="Email">
+                    </div>
+                    <div>
+                        <!-- <label>Password</label> -->
+                        <input type="password" required placeholder="Password" name="password" minlength="8" maxlength="15">
+                    </div>
+                    <a href="#" target="_blank" >Forgot Password?</a>
+                    <div>
+                        <button type="submit">LOGIN</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+        <!-- End login page -->
+
+        <!-- Start contact page -->
+        <section id="contact">
+            <div class="info">
+                <div>
+                    <h3>ADDRESS</h3>
+                    <P>Beheira, Housh Issa Center, Al-Gomhouria Street</P>
+                </div>
+                <div>
+                    <h3>Lets Talk</h3>
+                    <p>+1 800 123 567</p>
+                </div>
+                <div>
+                    <h3>General Support</h3>
+                    <p><a href="aymanzakaria641@gmail.com">aymanzakaria641@gmail.com</a></p>
+                </div>
+            </div>
+            <form >
+                <h3>Send Us Massege</h3>
+                <div>
+                    <!-- <label>TELL US YOUR NAME *</label> -->
+                    <input type="text" required placeholder="Full Name" name="name">
+                </div>
+                <div>
+                    <!-- <label>ENTER YOUR EMAIL *</label> -->
+                    <input type="email" placeholder=" Gmail" name="email">
+                </div>
+                <div>
+                    <!-- <label>ENTER PHONE NUMBER *</label> -->
+                    <input type="tel" required name="phone" placeholder=" Phone">
+                </div>
+                <div>
+                    <!-- <label for="cause">selection</label> -->
+                    <input list="selection" name="selc" placeholder="subject">
+                    <datalist id="selection" >
+                        <option value="complaint">
+                        <option value="inquires">
+                        <option value="feedback">
+                        <option value="other">
+                    </datalist>
+                </div>
+                <div>
+                    <!-- <label>MESSAGE *</label> -->
+                    <textarea name="subject" required cols="30" rows="5" placeholder="  Write us a massege"></textarea>
+                </div>
+                <button type="submit">SEND MESSAGE</button>
+            </form>
+        </section>
+        <!-- End contact page -->
+    </main>
+</body>
+</html>
